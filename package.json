@@ -1,0 +1,35 @@
+{
+  "name": "babel",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "tsx --watch src/index.ts test.in.ts test.out.ts"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.25.0",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/parser": "^7.25.0",
+    "@babel/plugin-proposal-decorators": "^7.24.7",
+    "@babel/plugin-transform-typescript": "^7.25.0",
+    "@babel/preset-env": "^7.25.0",
+    "@babel/preset-typescript": "^7.24.7",
+    "@babel/traverse": "^7.25.1",
+    "commander": "^12.1.0",
+    "corejs": "^1.0.0",
+    "tsx": "^4.16.2"
+  },
+  "packageManager": "yarn@4.3.1",
+  "main": "index.js",
+  "license": "MIT"
+}

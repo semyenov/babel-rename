@@ -1,0 +1,12 @@
+[
+  {
+    "type": "Identifier",
+    "from": "estOrbiteDB",
+    "to": "isOrbitDB"
+  },
+  {
+    "type": "Identifier",
+    "from": "schémaStructureBdCompte",
+    "to": "accountDBStructureSchema"
+  }
+]
